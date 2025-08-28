@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('../imagenes/Fondo2.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+input, button {
+width: 100%;
+margin: 10px 0;
+padding: 12px;
+border: none;
+border-radius: 5px;
+}
+
+button {
+background-color: #0099cc;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+.empresa-titulo {
+  opacity: 0;
+  animation: fadeIn 1.2s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1;}
+}
+.empresa-titulo {
+  font-family: 'Montserrat', sans-serif;
+}
+.logo-icon {
+  width: 50px;
+  height: 50;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.text {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; /* Cambia este valor */
+    padding: 10px;
+    border-radius: 8px;
+}
